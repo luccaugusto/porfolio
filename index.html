@@ -1,0 +1,31 @@
+---
+layout: default
+title: Portfólio de Lucca Augusto
+---
+
+<a href="#" class="neutro" onclick="mudaVisu()">
+<span class="font15" id="muda">
+	Mudar visualização
+</span>
+</a>
+<div id="grid">
+	<div class="linha">
+	{% for img in site.data.portfolio %}
+		{% assign mod = forloop.index0 | modulo: 5 %}
+		{% if mod == 0 %}
+			</div>
+			<div class="linha">
+		{% endif %}
+		<div class="container-img">
+			<a href="{{ img.link }}" target="blank"><img src="{{ img.link }}" alt="{{ img.nome }}" class="imagem"/></a>
+		</div>
+	{% endfor %}
+	</div>
+</div>
+<div id="lista" style="display:none">
+	{% for img in site.data.portfolio %}
+		<div class="item">
+			<a href="{{ img.link }}" target="blank"><img src="{{ img.link }}" alt="{{ img.nome }}" class="imagem-lista"/></a>
+		</div>
+	{% endfor %}
+</div>

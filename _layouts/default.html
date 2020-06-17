@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+	  {% include head.html %}
+  </head>
+  <body class="sepia">
+	<div class="geral">
+		<div class="sidebar">
+			<img class="assinatura-d" src="/images/assinatura-real.png"/>
+		</div>
+		<div class="conteudo">
+			<img class="assinatura-m" src="/images/assinatura-real.png"/>
+			{% include navigation.html %}
+    		{{ content }}
+		</div>
+	</div>
+  </body>
+</html>

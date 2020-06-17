@@ -1,0 +1,98 @@
+.current {
+  color: #3b6b6c !important;
+}
+.sepia{
+	background-color: #e2ba7d;
+}
+.geral{
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+.assinatura-d{
+	width: 60pt;
+}
+.assinatura-m{
+	display: none;
+}
+.sidebar{
+	padding: 100pt 0;
+	margin: 10pt;
+}
+.conteudo{
+	width: 100%;
+}
+.font15{
+	font-size: 15pt;
+}
+.font25{
+	font-size: 25pt;
+}
+.m25{
+	margin: 0 25pt;
+}
+.w50{
+	width: 50%;
+}
+.font20{
+	font-size: 20px;
+}
+.menuzinho{
+	margin: 50pt;
+}
+.imagem{
+	width: 100%;
+	display: table-cell;
+}
+.imagem-lista{
+	max-height: 100%;
+	max-width: 100%;
+}
+.neutro{
+	text-decoration: none;
+	color: #986414;
+}
+.container-img{
+	max-width: 250pt;
+	max-height: 250pt;
+	overflow: hidden;
+	background-color: #26626a;
+}
+.linha{
+	width: 100%;
+	display: inline-flex;
+}
+.item{
+	margin: 10pt auto;
+	width: 75%;
+	height: 500pt;
+	padding: 10pt;
+	text-align: center;
+	background-color: #e6ceaa;
+}
+.coluna{
+	height: 100%;
+	width: 20%;
+}
+/* Responsivo */
+@media only screen and (max-width: 808px) {
+	.p-sobre{
+		width: unset !important;
+	}
+	.item{
+		height: unset;
+	}
+	.sidebar{
+		display: none;
+	}
+	.assinatura-m{
+		display: block;
+		width: 40pt;
+		position: absolute;
+		top: 55pt;
+		margin: 15pt;
+	}
+	.assinatura-d{
+		display: none;
+	}
+}

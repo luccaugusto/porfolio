@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Sobre
+  link: /sobre/
+- name: Piadas
+  link: /piadas.html
+- name: Blog
+  link: https://luccaaugusto.xyz/blog/
