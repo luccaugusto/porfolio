@@ -8,7 +8,7 @@ title: Portfólio de Lucca Augusto
 	Mudar visualização
 </span>
 </a>
-<div id="grid">
+<div id="grid" style="display:none">
 	<div class="linha">
 	{% for img in site.data.portfolio %}
 		{% assign mod = forloop.index0 | modulo: 5 %}
@@ -22,7 +22,7 @@ title: Portfólio de Lucca Augusto
 	{% endfor %}
 	</div>
 </div>
-<div id="lista" style="display:none">
+<div id="lista">
 	{% for img in site.data.portfolio %}
 		<div class="item">
 			<a href="{{ img.link }}" target="blank"><img src="{{ img.link }}" alt="{{ img.nome }}" class="imagem-lista"/></a>
