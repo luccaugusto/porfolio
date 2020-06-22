@@ -7,8 +7,6 @@ do
 	echo "-   nome: $FOTO" >> _data/portfolio.yml
 	echo "    link: /portfolio/$FOTO" >> _data/portfolio.yml
 done 
-
-echo "" > _data/piadas.yml
 for FOTO in $(ls piadas | grep jpg)
 do
 	echo "-   nome: $FOTO" >> _data/piadas.yml
