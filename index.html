@@ -39,10 +39,20 @@ title: Portfólio de Lucca Augusto
 				<video  class="imagem-lista" controls preload="auto">
 					<source src="{{ img.link }}" type="video/mp4">
 				</video>
+				{% if img.desc %}
+					<div class="desc font15">
+						{{ img.desc }}
+					</div>
+				{% endif %}
 			</div>
 		{% else %}
 			<div class="item">
 				<a href="{{ img.link }}" target="blank"><img src="{{ img.link }}" alt="{{ img.nome }}" class="imagem-lista"/></a>
+				{% if img.desc %}
+					<div class="desc font15">
+						{{ img.desc }}
+					</div>
+				{% endif %}
 			</div>
 		{% endif %}
 	{% endfor %}

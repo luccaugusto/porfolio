@@ -22,6 +22,12 @@
 .conteudo{
 	width: 100%;
 }
+.desc {
+	width: 31%;
+	text-align: left;
+	position: relative;
+	bottom: 75%
+}
 .font12{
 	font-size: 12pt;
 }
@@ -69,7 +75,7 @@
 	margin: 10pt auto;
 	width: 75%;
 	height: 500pt;
-	padding: 10pt;
+	padding: 30pt;
 	text-align: center;
 	background-color: #e6ceaa;
 }
@@ -97,5 +103,9 @@
 	}
 	.assinatura-d{
 		display: none;
+	}
+	.desc{
+		width: unset;
+		font-size: unset !important;
 	}
 }

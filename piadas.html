@@ -7,6 +7,11 @@ title: Piadas de Lucca Augusto
 	{% for img in site.data.piadas %}
 		<div class="item">
 			<a href="{{ img.link }}" target="blank" class="aneutro"><img src="{{ img.link }}" alt="{{ img.nome }}" class="imagem-lista"/></a>
+			{% if img.desc %}
+				<div class="desc font 15">
+					{{ img.desc }}
+				</div>
+			{% endif %}
 		</div>
 	{% endfor %}
 </div>
