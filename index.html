@@ -3,8 +3,9 @@ layout: default
 title: Portfólio de Lucca Augusto
 ---
 
+<h1> EM MANUTENÇÃO </h1>
 <a href="#" class="neutro" onclick="mudaVisu()">
-<span class="font15" id="muda">
+<span class="font15" id="muda" style="display:none">
 	Mudar visualização
 </span>
 </a>
@@ -31,7 +32,7 @@ title: Portfólio de Lucca Augusto
 	{% endfor %}
 	</div>
 </div>
-<div id="lista">
+<div id="lista" style="display:none">
 	{% for img in site.data.portfolio %}
 		{% assign titulo = img.nome | split: '.' %}
 		{% if titulo[1] == 'mp4' %}
