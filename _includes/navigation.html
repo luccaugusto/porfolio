@@ -1,5 +1,11 @@
 <nav class="menuzinho">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" class="neutro {% if page.url == item.link %}current{% endif %}"><span class="font25 m25">{{ item.name }}</span></a>
+    <a href="{{ item.link }}" class="neutro {% if page.url == item.link %}current{% endif %}">
+        <span class="font20">{{ item.name }}</span></br>
+    </a>
   {% endfor %}
+  </br>
+  <a href="{{ site.blog }}" class="neutro">
+      <span class="font15">Blog</span>
+  </a>
 </nav>

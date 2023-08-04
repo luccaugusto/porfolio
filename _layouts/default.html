@@ -3,15 +3,18 @@
   <head>
 	  {% include head.html %}
   </head>
-  <body class="sepia">
+  <body>
 	<div class="geral">
 		<div class="sidebar">
-			<img class="assinatura-d" src="/images/assinatura-real.png"/>
-			<p class="font12">Sem cópias por favor</p>
+			<img class="assinatura-d" src="/images/icone-LA-folhas.png"/>
+            {% include navigation.html %}
+			<p class="font12">
+                © 2023 Lucca Augusto.</br>
+                All rights reserved.
+            </p>
 		</div>
 		<div class="conteudo">
-			<img class="assinatura-m" src="/images/assinatura-real.png"/>
-			{% include navigation.html %}
+			<img class="assinatura-m" src="/images/icone-LA-folhas.png"/>
     		{{ content }}
 		</div>
 	</div>

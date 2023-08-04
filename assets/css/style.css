@@ -1,8 +1,11 @@
 .current {
-  color: #3b6b6c !important;
+  color: #ff6bc9 !important;
+  font-weight: bold;
 }
-.sepia{
-	background-color: #e2ba7d;
+body{
+	background-color: #000;
+	color: #fff;
+	font-family: monospace;
 }
 .geral{
 	width: 100%;
@@ -10,14 +13,15 @@
 	display: flex;
 }
 .assinatura-d{
-	width: 60pt;
+	width: 100%;
 }
 .assinatura-m{
 	display: none;
 }
 .sidebar{
-	padding: 100pt 0;
 	margin: 10pt;
+	margin-left: 30pt;
+	width: 20%;
 }
 .conteudo{
 	width: 100%;
@@ -28,11 +32,11 @@
 	position: relative;
 	bottom: 75%
 }
-.font12{
-	font-size: 12pt;
-}
 .font15{
 	font-size: 15pt;
+}
+.font20{
+	font-size: 20pt;
 }
 .font25{
 	font-size: 25pt;
@@ -43,11 +47,8 @@
 .w50{
 	width: 50%;
 }
-.font20{
-	font-size: 20px;
-}
 .menuzinho{
-	margin: 50pt;
+	line-height: 30pt;
 }
 .imagem{
 	width: 100%;
@@ -59,7 +60,10 @@
 }
 .neutro{
 	text-decoration: none;
-	color: #986414;
+	color: #fff;
+}
+.neutro:hover {
+	color: #bbb;
 }
 .container-img{
 	max-width: 250pt;

@@ -1,8 +1,14 @@
 - name: Home
   link: /
-- name: Sobre
-  link: /sobre/
-- name: Piadas
-  link: /piadas.html
-- name: Blog
-  link: https://luccaaugusto.xyz/blog.html
+- name: Digital Art
+  link: /digital-art/
+- name: Paper and Ink
+  link: /ink.html
+- name: Pencil
+  link: /pencil.html
+- name: Skateboard art
+  link: /skateboard.html
+- name: Skin and Ink
+  link: /skin-and-ink.html
+- name: Contact
+  link: /contact.html
