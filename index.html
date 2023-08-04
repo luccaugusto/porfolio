@@ -3,12 +3,13 @@ layout: default
 title: Portfólio de Lucca Augusto
 ---
 
+<h1>Coming soon...</h2>
 <a href="#" class="neutro" onclick="mudaVisu()">
 <span class="font15" id="muda" style="display:none">
 	Mudar visualização
 </span>
 </a>
-<div id="grid">
+<div id="grid" style="display:none">
 	<div class="linha">
 	{% for img in site.data.portfolio %}
 		{% assign titulo = img.nome | split: '.' %}
