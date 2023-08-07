@@ -64,6 +64,7 @@ ul{
 }
 .bio-paragraph{
 	width: 75%;
+	text-align: justify;
 }
 .bio-img{
 	width: 50%;
