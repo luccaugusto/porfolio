@@ -1,11 +1,14 @@
-.current {
-  color: #ff6bc9 !important;
-  font-weight: bold;
-}
 body{
 	background-color: #000;
 	color: #fff;
 	font-family: monospace;
+}
+ul{
+	list-style-type: square;
+}
+.current {
+	color: #ff6bc9 !important;
+	font-weight: bold;
 }
 .geral{
 	width: 100%;
@@ -67,11 +70,8 @@ body{
 .neutro:hover {
 	color: #bbb;
 }
-.container-img{
-	max-width: 250pt;
-	max-height: 250pt;
-	overflow: hidden;
-	background-color: #26626a;
+.icone{
+	max-width: 30px;
 }
 .linha{
 	width: 100%;
