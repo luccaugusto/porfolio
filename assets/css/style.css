@@ -214,6 +214,9 @@ ul{
 		display: block;
 		width: 90px;
 	}
+	.contact{
+		margin: 0;
+	}
 	.desc{
 		width: unset;
 		font-size: unset !important;
