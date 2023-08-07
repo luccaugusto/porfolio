@@ -9,7 +9,12 @@
             <div>
 			    <img class="assinatura" src="/images/icone-LA-folhas.jpg"/>
             </div>
-            <div>
+            <div class="menu-button">
+                <a onclick="toggle_menu()">
+                    <img src="images/hamburger-menu.png" style="height:100%;"/>
+                </a>
+            </div>
+            <div id="menu-container" class="menu-container-closed">
                 {% include navigation.html %}
             </div>
 		</div>
@@ -21,8 +26,9 @@
                 © 2023 Lucca Augusto.</br>
                 All rights reserved.
             </p>
-            <img class="folhas" src="/images/bencao-fdp.png"/>
+            <img class="thumbnail" src="/images/bencao-fdp.png"/>
         </div>
 	</div>
+    <span class="footnote">powered by <a href="https://jekyllrb.com/">Jekyll</a></span>
   </body>
 </html>

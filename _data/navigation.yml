@@ -1,14 +1,14 @@
 - name: Home
   link: /
 - name: Digital Art
-  link: /digital-art/
+  link: /digital-art.html
 - name: Paper and Ink
-  link: /ink.html
+  link: /paper-and-ink.html
 - name: Pencil
   link: /pencil.html
 - name: Skateboard art
-  link: /skateboard.html
-- name: Skin and Ink
-  link: /skin-and-ink.html
+  link: /skateboard-art.html
+- name: Ink and Skin
+  link: /ink-and-skin.html
 - name: Contact
   link: /contact.html

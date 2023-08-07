@@ -2,21 +2,28 @@
 layout: default
 title: Portfólio de Lucca Augusto
 ---
+<div class="bio">
+    <div>
+        <img class="bio-img" src="images/me.jpg"/>
+    </div>
+    <div class="bio-paragraph">
+        <p class="font15">
+            Starting in 2017 i used to be in the computer science world, and while i was developing
+            a personal website (long gone now) i had to manipulate some images and develop some designs
+            and banners, that made me remember that i really like to draw and work with visual arts
+            in general. So in 2018 i got back at drawing and i did mostly digital art.
+            Fast forward to 2022 and i'm sick and tired of working as a software engineer so i start to do
+            more artistic stuff and tattoo. In 2023 i decided to quit developing software and put my energy
+            into doing something i love. This portfolio is a collection of my art over the few different
+            mediums i've explored so far.
+        </p>
+    </div>
+</div>
 <div class="masonry">
-    {% for img in site.data.skin-and-ink %}
-        {% assign titulo = img.nome | split: '.' %}
-        {% if titulo[1] == 'mp4' %}
-            <div class="item">
-                <video class="imagem" controls preload="auto">
-                    <source src="{{ img.link }}" type="video/mp4">
-                </video>
-            </div>
-        {% else %}
-            <div class="item">
-                <a href="{{ img.link }}" target="blank">
-                    <img src="{{ img.link }}" alt="{{ img.nome }}" class="imagem"/>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %}
+    {% include galery.html content=site.data.paper-and-ink limit=3 %}
+    {% include galery.html content=site.data.mandalas limit=3 %}
+    {% include galery.html content=site.data.pencil limit=3 %}
+    {% include galery.html content=site.data.digital limit=3 %}
+    {% include galery.html content=site.data.ink-and-skin limit=3 %}
+    {% include galery.html content=site.data.skateboard-art limit=3 %}
 </div>

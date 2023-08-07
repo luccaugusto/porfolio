@@ -1,12 +1,12 @@
-function  mudaVisu() {
-	var grid = document.getElementById("grid");
-	var lista = document.getElementById("lista");
+function  toggle_menu() {
+	var menu = document.getElementById("menu-container");
 
-	if (grid.style.display === 'none') {
-		grid.style.display = 'block';
-		lista.style.display = 'none';
+  menu.classList.toggle("menu-container-open");
+	if (menu.style.display !== 'block') {
+		/* menu.style.display = 'block';
+    menu.style.opacity = 1; */
 	}else{
-		grid.style.display = 'none';
-		lista.style.display = 'block';
+		/* menu.style.display = 'none';
+    menu.style.opacity = 0; */
 	}
 }

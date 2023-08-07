@@ -1,0 +1,8 @@
+---
+layout: default
+title: Skateboard art
+---
+<div class="masonry">
+    {% assign data_size = site.data.skateboard-art | size %}
+    {% include galery.html content=site.data.skateboard-art limit=data_size %}
+</div>
