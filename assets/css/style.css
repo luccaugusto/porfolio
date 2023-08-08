@@ -2,6 +2,7 @@ body{
 	background-color: #000;
 	color: #fff;
 	font-family: monospace;
+	cursor: url('/assets/FinnSword.cur'), auto;
 }
 ul{
 	list-style-type: square;
@@ -112,6 +113,8 @@ ul{
 .website-embed > iframe {
 	width: 100%;
 	height: 450pt;
+	border: 10px solid #ffbffb;
+	border-radius: 5px;
 }
 .masonry {
 	-webkit-column-count: 4;
@@ -231,6 +234,9 @@ ul{
 	.desc{
 		width: unset;
 		font-size: unset !important;
+	}
+	.website-embed{
+		width: 75%;
 	}
 	.footer{
 		position: relative;
