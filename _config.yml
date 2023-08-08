@@ -22,8 +22,9 @@ title: Lucca Augusto
 email: lucca@luccaaugusto.xyz
 description: Lucca Augusto's Art Portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://arte.luccaaugusto.xyz" # the base hostname & protocol for your site, e.g. http://example.com
-blog: "https://blog.luccaaugusto.xyz"
+url: "https://luccaaugusto.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+blog_url: "https://blog.luccaaugusto.xyz"
+pds_url: "https://pds.luccaaugusto.xyz"
 
 # Build settings
 theme: minima

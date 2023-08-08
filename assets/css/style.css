@@ -101,6 +101,17 @@ ul{
 .linha{
 	width: 100%;
 	display: inline-flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.website-embed{
+	text-align: center;
+	width: 46%;
+	margin: 5pt;
+}
+.website-embed > iframe {
+	width: 100%;
+	height: 450pt;
 }
 .masonry {
 	-webkit-column-count: 4;
@@ -201,7 +212,7 @@ ul{
 		height: 0;
 	}
 	.menu-container-open{
-		height: 20rem;
+		height: 25rem;
 	}
 	#menu-container{
 		transition: height 0.5s ease-out;
