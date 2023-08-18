@@ -32,13 +32,15 @@ ul{
 	width: 20%;
 }
 .footer{
-	position: absolute;
-	bottom: 0;
 	display: flex;
 	justify-content: center;
-	left: 0;
 	flex-direction: column;
-	margin-left: 30pt;
+}
+.desktop-footer{
+	display: flex;
+}
+.mobile-footer{
+	display: none;
 }
 .footnote{
 	position: relative;
@@ -59,16 +61,16 @@ ul{
 	bottom: 75%
 }
 .bio{
-	display: flex;
+	display: flow-root;
 	margin: 2rem 5rem 0 1rem;
-	flex-direction: row-reverse;
 }
 .bio-paragraph{
-	width: 75%;
+	width: 100%;
 	text-align: justify;
 }
 .bio-img{
 	width: 50%;
+	max-width: 300px;
 	float: right;
 	margin: 20pt;
 }
@@ -245,6 +247,12 @@ ul{
 		justify-content: space-evenly;
 		width: 100%;
 		flex-direction: initial;
+	}
+	.mobile-footer{
+		display: flex;
+	}
+	.desktop-footer{
+		display: none;
 	}
 	.footnote{
 		left: 36%;
