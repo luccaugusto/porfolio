@@ -60,6 +60,9 @@ ul{
 	position: relative;
 	bottom: 75%
 }
+.english {
+	display: none;
+}
 .bio{
 	display: flow-root;
 	margin: 2rem 5rem 0 1rem;
