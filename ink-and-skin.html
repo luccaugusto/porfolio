@@ -2,6 +2,36 @@
 layout: default
 title: Ink and Skin
 ---
+<div class="bio">
+    <div class="bio-paragraph">
+        <p class="font15">
+            Comecei a me tatuar de curiosidade no início de 2022, em handpoke mesmo.
+            Quando percebi já estava comprando maquininhas e equipamentos e levando mais a sério.
+            Estou sempre estudando e me inspirando nos artistas de vanguarda, e estou desenvolvendo
+            projetos que possa fazer parte em handpoke e parte com maquininha. Essa é uma coleção
+            de alguns trabalhos que já executei.
+        </p>
+        <p class="font15 hidden" id="mais-bio">
+            Assim que tive algum contato com tatuagem já fiquei fascinado.
+            Achei inclusive que seria mais uma fase de grande interesse numa coisa que ia
+            sumir em pouco tempo, mas quase 10 anos depois cá estou eu, ainda fascinado
+            pelo mundo da tatuagem. Naturalmente comecei a me tatuar no início de 2022,
+            por diversão e curiosidade, com algumas tatuagens em handpoke nas minhas pernas.
+            Quando decidi abandonar meu trabalho como engenheiro de software em junho de 2023,
+            tatuagem foi uma das primeiras coisas que surgiu na minha mente como meu novo
+            caminho. Gosto muito de tatuar handpoke e atualmente estou desenvolvendo projetos
+            que me permitem tatuar parte com maquininha e parte com handpoke.
+            Admiro muito artistas de vanguarda e estou sempre buscando inspiração na galera mais
+            underground. Atualmente estou bem focado em blackwork e pontilhismo, futuramente
+            pretendo adicionar cor ao meu trabalho, tendendo pro lado do neotrad ou new school,
+            mas uma coisa de cada vez.
+            Meu estilo é inspirado principalmente em cartoons, tendendo pra um lado surrealista,
+            engraçado e até trash.
+            Desenho principalmente coisas que não existem ou coisas que existem do jeito que não são.
+        </p>
+        <a class="neutro" id="mostrar-mais" onclick="expandir()">...Ler mais</a>
+    </div>
+</div>
 <div class="masonry">
     {% assign data_size = site.data.ink-and-skin | size %}
     {% include galery.html content=site.data.ink-and-skin limit=data_size %}
