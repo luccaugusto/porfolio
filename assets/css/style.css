@@ -63,6 +63,12 @@ ul{
 .english {
 	display: none;
 }
+.hidden {
+	display: none;
+}
+.mais-bio {
+	display: none;
+}
 .bio{
 	display: flow-root;
 	margin: 2rem 5rem 0 1rem;
