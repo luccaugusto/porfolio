@@ -66,9 +66,6 @@ ul{
 .hidden {
 	display: none;
 }
-.mais-bio {
-	display: none;
-}
 .bio{
 	display: flow-root;
 	margin: 2rem 5rem 0 1rem;
@@ -189,6 +186,9 @@ ul{
 
 /* Responsivo */
 @media only screen and (max-width: 808px) {
+	.mobile-font-small{
+		font-size: unset;
+	}
 	.bio{
 		margin: 2rem 0 0 1rem;
 		display: contents;
@@ -198,6 +198,7 @@ ul{
 	}
 	.bio-img{
 		float: right;
+		width: 40%;
 	}
 	.geral{
 		flex-direction: column;
