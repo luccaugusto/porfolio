@@ -82,7 +82,6 @@ ul{
 .bio-img{
 	width: 50%;
 	max-width: 300px;
-	float: right;
 	margin: 20pt;
 }
 .font15{
@@ -202,7 +201,6 @@ ul{
 		align-items: center;
 	}
 	.bio-img{
-		float: right;
 		width: 45%;
 		margin: 0.5rem;
 	}
