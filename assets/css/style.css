@@ -39,6 +39,9 @@ ul{
 .desktop-footer{
 	display: flex;
 }
+.footer > img{
+	padding: 5px;
+}
 .mobile-footer{
 	display: none;
 }
@@ -46,6 +49,9 @@ ul{
 	position: relative;
 	bottom:0;
 	left:50%
+}
+.footnote a{
+	color: #fff;
 }
 .conteudo{
 	width: 100%;
@@ -260,6 +266,8 @@ ul{
 	}
 	.mobile-footer{
 		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
 	}
 	.desktop-footer{
 		display: none;
