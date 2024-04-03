@@ -74,7 +74,6 @@ ul{
 }
 .bio{
 	display: flow-root;
-	margin: 2rem 5rem 0 1rem;
 }
 .bio-paragraph{
 	width: 100%;
@@ -196,15 +195,16 @@ ul{
 		font-size: unset;
 	}
 	.bio{
-		margin: 2rem 0 0 1rem;
-		display: contents;
-	}
-	.bio-paragraph{
-		width: 100%;
+		margin: unset;
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: nowrap;
+		align-items: center;
 	}
 	.bio-img{
 		float: right;
-		width: 40%;
+		width: 45%;
+		margin: 0.5rem;
 	}
 	.geral{
 		flex-direction: column;
